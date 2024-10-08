@@ -1,0 +1,80 @@
+export default [
+  {
+    id: 1,
+    name: "김주선",
+    role: "소프라노",
+    category: "Local Artists",
+  },
+  {
+    id: 2,
+    name: "조성호",
+    role: "탭댄스",
+    category: "Local Artists",
+  },
+  {
+    id: 3,
+    name: "김진원",
+    role: "생황",
+    category: "Local Artists",
+  },
+  {
+    id: 4,
+    name: "동신혜",
+    role: "바이올린",
+    category: "Local Artists",
+  },
+  {
+    id: 5,
+    name: "황정은",
+    role: "비올라",
+    category: "Local Artists",
+  },
+  {
+    id: 6,
+    name: "정다슬",
+    role: "해금",
+    category: "Local Artists",
+  },
+  {
+    id: 7,
+    name: "차담희",
+    role: "아쟁",
+    category: "Local Artists",
+  },
+  {
+    id: 8,
+    name: "조건희",
+    role: "베이스",
+    category: "Local Artists",
+  },
+  {
+    id: 9,
+    name: "김규림",
+    role: "싱어송라이터",
+    category: "Local Artists",
+  },
+  {
+    id: 10,
+    name: "김경미",
+    role: "가야금",
+    category: "Local Artists",
+  },
+  {
+    id: 11,
+    name: "장윤석",
+    role: "키보드",
+    category: "House Band",
+  },
+  {
+    id: 12,
+    name: "홍승아",
+    role: "베이스",
+    category: "House Band",
+  },
+  {
+    id: 13,
+    name: "최종수",
+    role: "드럼",
+    category: "House Band",
+  },
+];

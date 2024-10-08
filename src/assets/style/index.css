@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import "./font.css";
+
+  html,
+  body {
+    @apply text-white font-bold font-gowunBatang text-xl tracking-tight;
+    background: linear-gradient(to bottom, #1ea687, #78bcbc);
+    word-break: keep-all;
+    overflow-x: hidden;
+  }
+  p,
+  pre,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    word-break: keep-all;
+  }
+}
+
+@layer utilities {
+}
