@@ -41,7 +41,7 @@ onMounted(() => {
 
     img {
       @apply block;
-      @apply max-lg:h-[65vh] max-lg:w-auto max-lg:max-w-[unset];
+      @apply max-lg:h-[35rem] max-lg:w-auto max-lg:max-w-[unset];
       @apply lg:h-auto lg:w-screen lg:max-w-[90vw];
     }
 

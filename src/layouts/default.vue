@@ -140,24 +140,27 @@ onUnmounted(() => {
 }
 
 .floating-button {
-  @apply fixed max-lg:bottom-9 lg:top-8 max-lg:left-1/2 max-lg:-translate-x-1/2 lg:right-8 z-[200];
+  @apply fixed max-lg:bottom-10 lg:top-8 max-lg:left-1/2 max-lg:-translate-x-1/2 lg:right-8 z-[200];
   .link-btn {
-    @apply bg-white text-secondary px-4 py-2 rounded-full text-sm shadow-xl;
+    @apply bg-white text-secondary px-4 py-2 rounded-full text-sm shadow-xl transition-all cursor-pointer;
     @apply flex items-center font-noto font-bold text-lg lg:text-xl;
     @apply relative;
     .icon {
       @apply text-xl lg:text-2xl lg:-mt-1;
     }
     .tooltip {
-      @apply absolute left-1/2 -translate-x-1/2 -translate-y-4 -bottom-10 mb-2 bg-black text-nowrap text-xs px-3 py-1 rounded-lg;
+      @apply absolute left-1/2 -translate-x-1/2 -translate-y-4 -top-5 mb-2 bg-black text-nowrap text-xs px-3 py-1 rounded-lg;
       animation: toggle 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) infinite;
       &:before {
         content: "";
-        @apply absolute left-1/2 -translate-x-1/2 -top-1;
+        @apply absolute left-1/2 -translate-x-1/2 -bottom-1;
         border-left: 8px solid transparent;
         border-right: 8px solid transparent;
-        border-bottom: 8px solid black;
+        border-top: 8px solid black;
       }
+    }
+    &:hover {
+      @apply bg-secondary text-white scale-105;
     }
   }
 }
